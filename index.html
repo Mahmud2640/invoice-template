@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>
-    nztrip deduct ammount invoice
+    nztrip invoice
   </title>
 
   <!-- Extranal resources google font -->
@@ -67,7 +67,7 @@
     }
 
     .wrapper-invoice .invoice .invoice-logo-brand img {
-      max-width: 100px;
+      max-width: 30%;
       width: 100%;
       object-fit: fill;
     }
@@ -182,24 +182,7 @@
       font-size: 2vh;
     }
 
-    .wrapper-invoice .invoice .invoice-footer {
-      margin-top: 4vh;
-    }
 
-    .wrapper-invoice .invoice .invoice-footer p {
-      font-size: 1.7vh;
-      color: gray;
-    }
-
-    .copyright {
-      margin-top: 2rem;
-      text-align: center;
-    }
-
-    .copyright p {
-      color: gray;
-      font-size: 1.8vh;
-    }
 
     @media print {
       .table thead tr th {
@@ -207,9 +190,7 @@
         background-color: #eeeeee !important;
       }
 
-      .copyright {
-        display: none;
-      }
+
     }
 
     .rtl {
@@ -264,27 +245,26 @@
     <div class="invoice">
       <div class="invoice-information">
         <p><b>Invoice #</b> : 12345</p>
-        <p><b>Created Date </b>: May, 07 2022</p>
-        <p><b>Due Date</b> : May, 09 2022</p>
+        <p><b>Created Date </b>: May, 15 2024</p>
+        <p><b>Due Date</b> : May, 20 2024</p>
       </div>
       <!-- logo brand invoice -->
       <div class="invoice-logo-brand">
-        <!-- <h2>Tampsh.</h2> -->
-        <img src="https://s3.ap-southeast-1.amazonaws.com/cdn.nztrip.co/Icons/logo.jpg" alt="" />
+        <!-- <img src="https://s3.ap-southeast-1.amazonaws.com/cdn.nztrip.co/Icons/logo.jpg" alt="" /> -->
+        <img src="./logo.png" alt="" />
       </div>
       <!-- invoice head -->
       <div class="invoice-head">
         <div class="head client-info">
-          <p>Tampsh, Inc.</p>
-          <p>NPWP: 12.345.678.910.111213.1415</p>
-          <p>Bondowoso, Jawa timur</p>
-          <p>Jln. Rengganis 05, Bondowoso</p>
+          <p>nztrip</p>
+          <p>Lot No. G1, Ground Floor, Cosmo Hotel</p>
+          <p>Lebuh Ampang, City Centre</p>
+          <p>Kuala Lumpur, Malaysia</p>
         </div>
         <div class="head client-data">
-          <p>-</p>
-          <p>Mohammad Sahrullah</p>
-          <p>Bondowoso, Jawa timur</p>
-          <p>Jln. Duko Kembang, Bondowoso</p>
+          <p>Mr Rohan Travel Agent</p>
+          <p>Lebuh Ampang, City Centre</p>
+          <p>Kuala Lumpur, Malaysia</p>
         </div>
       </div>
       <!-- invoice body-->
@@ -298,12 +278,12 @@
           </thead>
           <tbody>
             <tr>
-              <td>Template Invoice</td>
-              <td>Rp.75.000</td>
+              <td>Booking many times</td>
+              <td>MYR 75.000</td>
             </tr>
             <tr>
-              <td>tax</td>
-              <td>Rp.5.000</td>
+              <td>Service Charge</td>
+              <td>MYR 5.000</td>
             </tr>
           </tbody>
         </table>
@@ -314,15 +294,15 @@
               <tbody>
                 <tr>
                   <td>Subtotal</td>
-                  <td>Rp.80.000</td>
+                  <td>MYR 80.000</td>
                 </tr>
                 <tr>
-                  <td>PPN 10%</td>
-                  <td>Rp.5.000</td>
+                  <td>VAT 10%</td>
+                  <td>MYR 5.000</td>
                 </tr>
                 <tr>
                   <td>Credit</td>
-                  <td>Rp.0</td>
+                  <td>MYR 0</td>
                 </tr>
               </tbody>
             </table>
@@ -330,18 +310,11 @@
         </div>
         <!-- invoice total  -->
         <div class="invoice-total-amount">
-          <p>Total : Rp.80.000</p>
+          <p>Total : MYR 80.000</p>
         </div>
-      </div>
-      <!-- invoice footer -->
-      <div class="invoice-footer">
-        <p>Thankyou, happy shopping again</p>
       </div>
     </div>
   </section>
-  <div class="copyright">
-    <p>Created by ❤ Mohammad Sahrullah</p>
-  </div>
 </body>
 
 </html>
